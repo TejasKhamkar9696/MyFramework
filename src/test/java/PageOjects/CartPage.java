@@ -10,7 +10,7 @@ public class CartPage extends BasePage{
 	}
 	
 	By cartPageTitle= By.xpath("//span[text()='Your Cart']");
-	By inventoryItemName = By.xpath("//div[@data-test='inventory-item-nam']");
+	By inventoryItemName = By.xpath("//div[@data-test='inventory-item-name']");
 	By checkoutBtn= By.xpath("//button[@id='checkout']");
 	
 	public boolean isCartPageTitleDisplayes()
